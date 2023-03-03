@@ -5,11 +5,10 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/live-vue3-training-chapter-works/week6/dist/',
+  base: '/vue3-w6/',
   resolve:{
     alias:{
       '@' : path.resolve(__dirname, './src')
     },
   },
 })
-base: '/vue3-w6/'
