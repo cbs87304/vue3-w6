@@ -12,3 +12,4 @@ export default defineConfig({
     },
   },
 })
+base: '/vue3-w6/'
